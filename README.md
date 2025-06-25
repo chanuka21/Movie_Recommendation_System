@@ -1,4 +1,5 @@
 🍿 Movie Recommender System with Python & Streamlit 🎬
+
 I recently built a content-based movie recommendation system 
 that allows users to select any movie they like and instantly get 5 similar
 movie suggestions—with poster previews!
@@ -8,9 +9,13 @@ connections based on cast, crew, genre, storyline, and keywords.
 
 🔍 Key Features:
 ✅ User selects any movie from the dropdown
+
 ✅ Recommender returns 5 most similar movies
+
 ✅ Movie posters fetched dynamically using API
+
 ✅ Built with Python, Pandas, Scikit-Learn & Streamlit
+
 ✅ Clean and responsive front-end for easy use
 
 🧠 Behind the scenes, I:
