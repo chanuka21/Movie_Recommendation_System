@@ -15,6 +15,10 @@ By transforming text metadata into numerical features, this project showcases ho
 
 ---
 
+## 🖼️ App Preview
+
+![Movie Recommendation UI](movie_ui.png)
+
 ## 📌 Technical Overview
 
 • Cleaned and preprocessed movie metadata including genres, director, actors, and overview.  
