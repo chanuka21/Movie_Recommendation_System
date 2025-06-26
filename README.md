@@ -1,35 +1,27 @@
-🍿 Movie Recommender System with Python & Streamlit 🎬
+# 🎬 Movie Recommendation System using Content-Based Filtering 📽️
 
-I recently built a content-based movie recommendation system 
-that allows users to select any movie they like and instantly get 5 similar
-movie suggestions—with poster previews!
+Built a content-based movie recommender system that suggests similar movies based on plot, genre, and cast metadata using NLP and vector similarity techniques. The project aims to enhance user engagement by delivering meaningful, personalized suggestions.
 
-This web app provides a fun, interactive way to explore movie 
-connections based on cast, crew, genre, storyline, and keywords.
+🔍 **Key Features**  
+✅ Recommends top 5 similar movies based on user input 🎞️  
+✅ Uses TF-IDF vectorization and Cosine Similarity for ranking 🔍  
+✅ Clean Flask web interface for real-time movie input and results 🧠  
+✅ Built with lightweight design for fast response 🔧  
+✅ Scalable approach for larger datasets and genre expansions 🌍
 
-🔍 Key Features:
-✅ User selects any movie from the dropdown
+By transforming text metadata into numerical features, this project showcases how NLP and similarity measures can power intelligent search and discovery.
 
-✅ Recommender returns 5 most similar movies
+💡 Excited to explore more about personalization and recommender systems!
 
-✅ Movie posters fetched dynamically using API
+---
 
-✅ Built with Python, Pandas, Scikit-Learn & Streamlit
+## 📌 Technical Overview
 
-✅ Clean and responsive front-end for easy use
+• Cleaned and preprocessed movie metadata including genres, director, actors, and overview.  
+• Used **TF-IDF Vectorizer** to encode movie overviews into feature vectors.  
+• Applied **Cosine Similarity** to calculate similarity between movies.  
+• Built a **Flask** app with user input form and output display for recommendations.  
+• Connected recommendation engine to live search interface.
 
-🧠 Behind the scenes, I:
-
-Combined movie datasets (TMDB + MovieLens)
-
-Engineered a feature-rich metadata soup (cast, crew, genres, overview)
-
-Used CountVectorizer and cosine similarity to calculate movie similarity scores
-
-Connected to TMDB API for real-time poster retrieval
-
-Designed a simple and intuitive Streamlit interface
-
-🎯 This project sharpened my skills in text processing, feature engineering, and API integration,
-while allowing me to build a real-world ML application end-to-end.
-
+**Tools and Technologies:**  
+`Python` | `Pandas` | `Scikit-learn` | `TF-IDF` | `Cosine Similarity` | `Flask` | `HTML/CSS`
